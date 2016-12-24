@@ -1,3 +1,17 @@
+<a name="1.1.1718"></a>
+## [1.1.1718](https://github.com/garyng/Mono/compare/v1.0.1708...v1.1.1718) (2016-12-24)
+
+
+### Bug Fixes
+
+* **WPF:** fix XAML exception while startup due to the change of the assembly name ([ac3d616](https://github.com/garyng/Mono/commit/ac3d616))
+* **WPF:** rename AssemblyName from Mono.WPF to Mono ([4d062b8](https://github.com/garyng/Mono/commit/4d062b8))
+* **WPF:** strip Revision from version while packing NuGet packages ([4f566bd](https://github.com/garyng/Mono/commit/4f566bd))
+* **WPF.Module:** remove .SingleInstance() from IUpdater registration ([1254bcb](https://github.com/garyng/Mono/commit/1254bcb))
+* **WPF.Settings:** request a Func<IUpdater> instead of IUpdater ([e9e0aa2](https://github.com/garyng/Mono/commit/e9e0aa2))
+
+
+
 <a name="1.0.1708"></a>
 ## 1.0.1708 (2016-12-24)
 
