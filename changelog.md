@@ -1,3 +1,14 @@
+<a name="1.2.1725"></a>
+## [1.2.1725](https://github.com/garyng/Mono/compare/v1.1.1718...v1.2.1725) (2016-12-24)
+
+
+### Bug Fixes
+
+* **WPF.About:** show the missing Mono.WPF version info due to change of assembly name ([a08d4c0](https://github.com/garyng/Mono/commit/a08d4c0))
+* **WPF.Settings:** hide Restart button while checking update ([9631ab4](https://github.com/garyng/Mono/commit/9631ab4))
+
+
+
 <a name="1.1.1718"></a>
 ## [1.1.1718](https://github.com/garyng/Mono/compare/v1.0.1708...v1.1.1718) (2016-12-24)
 
