@@ -1,3 +1,22 @@
+<a name="1.3.1752"></a>
+## [1.3.1752](https://github.com/garyng/Mono/compare/v1.2.1725...v1.3.1752) (2016-12-26)
+
+
+### Bug Fixes
+
+* **WPF.Faker:** fake the new IUpdater ([b2fd0ca](https://github.com/garyng/Mono/commit/b2fd0ca))
+* **WPF.Settings:** set IsCheckingForUpdates to false after checking update ([e4f27e1](https://github.com/garyng/Mono/commit/e4f27e1))
+* **WPF.Updater:** fix Version comparison ([98c3d56](https://github.com/garyng/Mono/commit/98c3d56))
+
+
+### Features
+
+* **WPF.Faker:** fake IUpdater ([55bf153](https://github.com/garyng/Mono/commit/55bf153))
+* **WPF.Settings:** add noUpdates action ([8289de9](https://github.com/garyng/Mono/commit/8289de9))
+* **WPF.Update:** add noUpdates action to Check() and CheckAndUpdate in IUpdater ([94cfc1a](https://github.com/garyng/Mono/commit/94cfc1a))
+
+
+
 <a name="1.2.1725"></a>
 ## [1.2.1725](https://github.com/garyng/Mono/compare/v1.1.1718...v1.2.1725) (2016-12-24)
 
