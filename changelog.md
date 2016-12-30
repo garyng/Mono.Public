@@ -1,3 +1,13 @@
+<a name="1.4.3"></a>
+## [1.4.3](https://github.com/garyng/Mono/compare/v1.4.2...v1.4.3) (2016-12-30)
+
+
+### Bug Fixes
+
+* change version styling in nupkg from x.x.x.x to x.x.x ([723a947](https://github.com/garyng/Mono/commit/723a947))
+
+
+
 <a name="1.4.2"></a>
 ## [1.4.2](https://github.com/garyng/Mono/compare/v1.3.1752...v1.4.2) (2016-12-30)
 
