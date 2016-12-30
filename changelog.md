@@ -1,3 +1,13 @@
+<a name="1.4.2"></a>
+## [1.4.2](https://github.com/garyng/Mono/compare/v1.3.1752...v1.4.2) (2016-12-30)
+
+
+### Bug Fixes
+
+* **WPF.Portal:** hide LOAD MORE... button while searching ([865a1a6](https://github.com/garyng/Mono/commit/865a1a6))
+
+
+
 <a name="1.3.1752"></a>
 ## [1.3.1752](https://github.com/garyng/Mono/compare/v1.2.1725...v1.3.1752) (2016-12-26)
 
