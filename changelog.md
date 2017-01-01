@@ -1,3 +1,13 @@
+<a name="1.4.4"></a>
+## [1.4.4](https://github.com/garyng/Mono/compare/v1.4.3...v1.4.4) (2017-01-01)
+
+
+### Bug Fixes
+
+* **build:** don't increment build version after build ([e23d0d7](https://github.com/garyng/Mono/commit/e23d0d7))
+
+
+
 <a name="1.4.3"></a>
 ## [1.4.3](https://github.com/garyng/Mono/compare/v1.4.2...v1.4.3) (2016-12-30)
 
