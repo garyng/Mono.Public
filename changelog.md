@@ -1,3 +1,32 @@
+<a name="1.5.0"></a>
+# [1.5.0](https://github.com/garyng/Mono/compare/v1.4.4...v1.5.0) (2017-01-09)
+
+
+### Bug Fixes
+
+* **WPF.CaMSys:** add PanningMode to ScrollViewer to support touchscreen ([72ae3d8](https://github.com/garyng/Mono/commit/72ae3d8))
+* **WPF.Download:** add PanningMode to ScrollViewer to support touchscreen ([9714002](https://github.com/garyng/Mono/commit/9714002))
+* **WPF.MMLS:** add PanningMode to ScrollViewer to support touchscreen ([95cda66](https://github.com/garyng/Mono/commit/95cda66))
+* **WPF.Portal:** add PanningMode to ScrollViewer in PortalBulletinItemView to support touchscreen ([6adb7b3](https://github.com/garyng/Mono/commit/6adb7b3))
+* **WPF.Portal:** add PanningMode to ScrollViewer to support touchscreen ([3ff0c84](https://github.com/garyng/Mono/commit/3ff0c84))
+* **WPF.Settings:** add PanningMode to ScrollViewer to support touchscreen ([ea1b095](https://github.com/garyng/Mono/commit/ea1b095))
+* **WPF.Settings:** remove "Accounts" section under Settings ([f711fb9](https://github.com/garyng/Mono/commit/f711fb9))
+* **WPF.Settings:** remove ParserInfo and Account-related code ([e8dd67f](https://github.com/garyng/Mono/commit/e8dd67f))
+* **WPF.Updater:** invoke noUpdates when IsInstalledApp is false ([8e06c36](https://github.com/garyng/Mono/commit/8e06c36))
+
+
+### Features
+
+* **WPF:** add Feedback button to PopupBox ([a2d41cb](https://github.com/garyng/Mono/commit/a2d41cb))
+* **WPF:** autoclose sidebar when navigated to any of the page ([a4d76c4](https://github.com/garyng/Mono/commit/a4d76c4))
+* **WPF.About:** add buttons to Facebook and GitHub ([109047d](https://github.com/garyng/Mono/commit/109047d))
+* **WPF.CaMSys:** add toolbar to refresh and logout ([e10ed9a](https://github.com/garyng/Mono/commit/e10ed9a))
+* **WPF.Controls:** press enter key to login in ParserLoginViewControl ([35ae6f8](https://github.com/garyng/Mono/commit/35ae6f8))
+* **WPF.MMLS:** add toolbar to refresh and logout ([dddd974](https://github.com/garyng/Mono/commit/dddd974))
+* **WPF.Portal:** add toolbar to refresh and logout ([e824358](https://github.com/garyng/Mono/commit/e824358))
+
+
+
 <a name="1.4.4"></a>
 ## [1.4.4](https://github.com/garyng/Mono/compare/v1.4.3...v1.4.4) (2017-01-01)
 
