@@ -1,3 +1,69 @@
+<a name="1.6.0"></a>
+# [1.6.0](https://github.com/garyng/Mono/compare/v1.5.0...v1.6.0) (2017-01-30)
+
+
+### Bug Fixes
+
+* **Core.CaMSys:** check for availability of ExamSlip in ExamSlipParser ([3fa7e65](https://github.com/garyng/Mono/commit/3fa7e65))
+* **Core.CaMSys:** check for availability of ExamTimetable in ExamTimetable ([847aa53](https://github.com/garyng/Mono/commit/847aa53))
+* **Core.CaMSys:** set Result to parser's result ([9035b2f](https://github.com/garyng/Mono/commit/9035b2f))
+* **Google:** cancel task after timeout in LoginAsync ([47c19f4](https://github.com/garyng/Mono/commit/47c19f4))
+* **Google:** check against Pushed instead of Pulled in IsPushed property  ([8d9aaba](https://github.com/garyng/Mono/commit/8d9aaba))
+* **Google.:** change Timeout in GoogleAccountManager to 2 minutes ([cd112e2](https://github.com/garyng/Mono/commit/cd112e2))
+* **Google.Extensions:** cancel task after timeout ([c5e9238](https://github.com/garyng/Mono/commit/c5e9238))
+* **Google.Firebase:** return success state of UpdateUserInfo in FirebaseService ([ed1f490](https://github.com/garyng/Mono/commit/ed1f490))
+* **WPF:** add MaxWidth and MaxHeight to logo in the sidebar ([995d9f6](https://github.com/garyng/Mono/commit/995d9f6))
+* **WPF:** fix typo "Attandence" to "Attendance" ([8b500a5](https://github.com/garyng/Mono/commit/8b500a5))
+* **WPF:** navigate to first NavigationTarget instead of navigating to AboutViewModel ([d9a2928](https://github.com/garyng/Mono/commit/d9a2928))
+* **WPF:** navigate to first registered view instead of About ([95b7d21](https://github.com/garyng/Mono/commit/95b7d21))
+* **WPF:** swap position of logout and refresh button on toolbar ([c994093](https://github.com/garyng/Mono/commit/c994093))
+* **WPF.About:** add MaxHeight and MaxWidth to logo ([1326df9](https://github.com/garyng/Mono/commit/1326df9))
+* **WPF.About:** remove IsFirst from NavigationTarget attribute ([56d0285](https://github.com/garyng/Mono/commit/56d0285))
+* **WPF.CaMSys:** add tooltip for exam venue and seat number ([33743cd](https://github.com/garyng/Mono/commit/33743cd))
+* **WPF.CaMSys:** fix typo in CaMSysExamScheduleExportView ([84e41e4](https://github.com/garyng/Mono/commit/84e41e4))
+* **WPF.CaMSys:** remove leftover go back button in CaMSysAttandenceView ([e8664f6](https://github.com/garyng/Mono/commit/e8664f6))
+* **WPF.CaMSys:** tweak margin of the last card ([1f499a5](https://github.com/garyng/Mono/commit/1f499a5))
+* **WPF.Faker:** fake IsAvailable property on CaMSysExamSlip ([036327e](https://github.com/garyng/Mono/commit/036327e))
+* **WPF.Faker:** fake missing ExamItems in ExamSlip ([565763f](https://github.com/garyng/Mono/commit/565763f))
+* **WPF.Google:** remove ValidateLoginStatus to reduce login time ([0b20cef](https://github.com/garyng/Mono/commit/0b20cef))
+* **WPF.Logo:** remove MaxWidth and MaxHeight from Mono.Logo Style ([25a966f](https://github.com/garyng/Mono/commit/25a966f))
+* **WPF.Portal:** change PackIcon kind from "Attachment" to "Paperclip" ([e851f76](https://github.com/garyng/Mono/commit/e851f76))
+* **WPF.Portal:** change paper clip direction on Portal list ([082d8ab](https://github.com/garyng/Mono/commit/082d8ab))
+
+
+### Features
+
+* **Core.CaMSys:** add CaMSysExamSlipParser ([dd7af2c](https://github.com/garyng/Mono/commit/dd7af2c))
+* **Core.CaMSys:** add CaMSysExamTimetableParser ([e5af109](https://github.com/garyng/Mono/commit/e5af109))
+* **Core.CaMSys:** add ExamEndDateTime to ExamItem of CaMSysExamSlipExamItemParser ([09af3f6](https://github.com/garyng/Mono/commit/09af3f6))
+* **Google:** add GoogleAccountManager ([fb59eee](https://github.com/garyng/Mono/commit/fb59eee))
+* **Google:** add GoogleServiceBase ([7fdd120](https://github.com/garyng/Mono/commit/7fdd120))
+* **Google:** add GoogleServicStateBase and states ([1c4f8e8](https://github.com/garyng/Mono/commit/1c4f8e8))
+* **Google:** add IGoogleServiceStateChangeObservable ([863aca2](https://github.com/garyng/Mono/commit/863aca2))
+* **Google:** add IGoogleServiceStateChangeObserver ([eec131a](https://github.com/garyng/Mono/commit/eec131a))
+* **Google:** GoogleWebAuthorizationBroker.AuthorizeAsync will timeout after 3 minutes ([b708c16](https://github.com/garyng/Mono/commit/b708c16))
+* **Google:** implement IGoogleServiceStateChangeObservable in GoogleServiceBase ([bf5672c](https://github.com/garyng/Mono/commit/bf5672c))
+* **Google.Calendar:** add GoogleCalendarService ([3788fe4](https://github.com/garyng/Mono/commit/3788fe4))
+* **Google.Extensions:** add TimeoutAfter extension for Task ([27d04a1](https://github.com/garyng/Mono/commit/27d04a1))
+* **Google.Firebase:** add FirebaseAccountManager ([395f0bb](https://github.com/garyng/Mono/commit/395f0bb))
+* **Google.Firebase:** add FirebaseDatabaseService ([e9ec8ea](https://github.com/garyng/Mono/commit/e9ec8ea))
+* **Google.Firebase:** add FirebaseService  ([e44531c](https://github.com/garyng/Mono/commit/e44531c))
+* **logo:** add icon logo ([1824f85](https://github.com/garyng/Mono/commit/1824f85))
+* **WPF.CaMSys:** add CaMSysExamSchedule view and viewmodel ([392a771](https://github.com/garyng/Mono/commit/392a771))
+* **WPF.CaMSys:** add CaMSysExamScheduleExport view and viewmodel ([47639ce](https://github.com/garyng/Mono/commit/47639ce))
+* **WPF.CaMSys:** add ExamTimetableIsDraftConverter ([5b63583](https://github.com/garyng/Mono/commit/5b63583))
+* **WPF.CaMSys:** add ShowExamScheduleCommand to CaMSys view ([a7993f4](https://github.com/garyng/Mono/commit/a7993f4))
+* **WPF.Dialog:** add ShowDialog that show-and-forget a view ([c6b13d2](https://github.com/garyng/Mono/commit/c6b13d2))
+* **WPF.Faker:** fake CaMSysExamTimetable and CaMSysExamSlip ([8b99986](https://github.com/garyng/Mono/commit/8b99986))
+* **WPF.Faker:** fake ExamEndDateTime in ExamItem of CaMSysExamSlip ([25b46f1](https://github.com/garyng/Mono/commit/25b46f1))
+* **WPF.Google:** add GoogleLogin view and viewmodel ([9d3ea8c](https://github.com/garyng/Mono/commit/9d3ea8c))
+* **WPF.Settings:** add Google section under Settings ([137ccd4](https://github.com/garyng/Mono/commit/137ccd4))
+* **WPF.Settings:** add IsFirstRun property to IUserSettings ([6bdd836](https://github.com/garyng/Mono/commit/6bdd836))
+* **WPF.Validation:** add NumericValidationRule ([f1a8559](https://github.com/garyng/Mono/commit/f1a8559))
+* **WPF.Welcome:** add Welcome view and viewmodel ([42b8581](https://github.com/garyng/Mono/commit/42b8581))
+
+
+
 <a name="1.5.0"></a>
 # [1.5.0](https://github.com/garyng/Mono/compare/v1.4.4...v1.5.0) (2017-01-09)
 
