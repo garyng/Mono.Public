@@ -1,3 +1,13 @@
+<a name="1.6.1"></a>
+## [1.6.1](https://github.com/garyng/Mono/compare/v1.6.0...v1.6.1) (2017-02-03)
+
+
+### Bug Fixes
+
+* **Core.MMLS:** fix aggregating post will fail if the post has no content ([6f11b5f](https://github.com/garyng/Mono/commit/6f11b5f))
+
+
+
 <a name="1.6.0"></a>
 # [1.6.0](https://github.com/garyng/Mono/compare/v1.5.0...v1.6.0) (2017-01-30)
 
