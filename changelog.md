@@ -1,3 +1,14 @@
+<a name="1.6.2"></a>
+## [1.6.2](https://github.com/garyng/Mono/compare/v1.6.1...v1.6.2) (2017-03-27)
+
+
+### Bug Fixes
+
+* **Core.MMLS:** better announcement content extraction ([002afc2](https://github.com/garyng/Mono/commit/002afc2))
+* **Core.Parser:** add 60s Timeout to RestClient ([c8cbc5a](https://github.com/garyng/Mono/commit/c8cbc5a))
+
+
+
 <a name="1.6.1"></a>
 ## [1.6.1](https://github.com/garyng/Mono/compare/v1.6.0...v1.6.1) (2017-02-03)
 
